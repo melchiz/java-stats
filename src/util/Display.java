@@ -10,5 +10,7 @@ package util;
  * @author Melchizo
  */
 public class Display {
-    
+    public static void show(Object o){
+        System.out.println(o.toString());
+    }
 }
